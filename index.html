@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Bảng Layout</title>
+<style>
+    td{
+        text-align: center;
+        
+    }
+    .menu {
+    display: flex;
+    justify-content: center;
+    gap: 250px; /* khoản cáh */
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none; /* ko gạch chân*/
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ds a {
+    text-decoration: none; /*ko gạch chân*/
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu a:hover {
+    color:rgb(255, 255, 255)
+}
+
+.ds a:hover {
+    color:rgb(21, 125, 73)
+}
+</style>
+</head>
+<body>
+
+<table  width="100%">
+    <tr>
+        <td colspan="2" style="height:300px; ">
+            <img src="https://i.pinimg.com/1200x/9d/b7/c1/9db7c11bd7316998f7213e7784123841.jpg" style="width:100%; height:302px; object-fit:cover;">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" style="height:80px; background-color:#ffbd2f">
+            <div class="menu">
+                <a href="#">TRANG CHỦ</a>
+                <a href="#">BÀI 1</a>
+                <a href="#">BÀI 2</a>
+                <a href="#">LIÊN HỆ</a>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td style="width:300px; height: 800px; background-color:#ffffac">
+            <div class="ds">
+                <a href="https://www.youtube.com/embed/CjAX0F3dwME" target="video" >Đường Lên Phía Trước</a><br><br><br><br>
+                <a href="https://www.youtube.com/embed/yHikkFeIHNA" target="video">Nỗi Đau Giữa Hòa Bình</a><br><br><br><br>
+                <a href="https://www.youtube.com/embed/M65MJLLB4IM" target="video">Viết Tiếp Câu Chuyện Hòa Bình</a><br><br><br><br>
+                <a href="https://www.youtube.com/embed/EfEJ6vfWAJ4" target="video">Vở Kịch Của Em</a><br><br><br><br>
+                <a href="https://www.youtube.com/embed/1RPTCQzBmfc" target="video">Sài Gòn Xa Hoa</a>
+            </div>
+        </td>
+        <td>
+             <iframe name="video" width="70%" height="490px" ></iframe>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" style="height:70px; background-color:#ffbd2f">© Copyright by Thế Châu DA25TTD</td>
+    </tr>
+</table>
+
+</body>
+</html>
